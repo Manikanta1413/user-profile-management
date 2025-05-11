@@ -1,0 +1,20 @@
+# Step 1: Set the base image (using Node 18)
+FROM node:18-alpine
+
+# Step 2: Set the working directory inside the container
+WORKDIR /usr/src/app
+
+# Step 3: Copy package.json and package-lock.json to the container
+COPY package*.json ./
+
+# Step 4: Install dependencies
+RUN npm install
+
+# Step 5: Copy the rest of the application files into the container
+COPY . .
+
+# Step 6: Expose the port the app will run on (default Vite port is 5173 for development)
+EXPOSE 5173
+
+# Step 7: Run Vite in production mode (or you can use `npm run dev` for development)
+CMD ["npm", "run", "dev"]

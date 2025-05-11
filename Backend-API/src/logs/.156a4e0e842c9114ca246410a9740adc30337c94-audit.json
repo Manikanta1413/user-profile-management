@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\dinta\\OneDrive\\Documents\\Livello\\Backend-API\\src\\logs\\.156a4e0e842c9114ca246410a9740adc30337c94-audit.json",
+    "files": [
+        {
+            "date": 1747002733174,
+            "name": "C:\\Users\\dinta\\OneDrive\\Documents\\Livello\\Backend-API\\src\\logs\\application-2025-05-12.log",
+            "hash": "050c0a387b9e3ed1af3433b649a7388fb87b6069e64504b4a7ad3c3b8098da7a"
+        }
+    ],
+    "hashType": "sha256"
+}

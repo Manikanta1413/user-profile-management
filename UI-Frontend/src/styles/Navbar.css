@@ -1,0 +1,88 @@
+/* Navbar Styles */
+.navbar {
+    background-color: #fffdd0;
+    /* cream white */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 24px;
+    position: relative;
+}
+
+.navbar-title {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-links {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    /* spacing between Register and Login buttons */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav-link.active {
+    color: orange;
+}
+
+/* Centered Title on Home or Dashboard */
+.center-title {
+    text-align: center;
+    color: blue;
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1f2937;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Default nav button style */
+.nav-button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    background-color: #333;
+}
+
+/* Blue active for Register */
+.nav-button.active {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+/* Darker blue active for Login */
+.nav-button.active-dark {
+    background-color: #0056b3;
+    color: white;
+    border-color: #0056b3;
+}
